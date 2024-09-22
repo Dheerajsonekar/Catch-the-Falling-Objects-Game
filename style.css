@@ -1,0 +1,38 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0
+}
+
+.game-area{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background: color #0e0e0e;
+    border: 2px solid #333;
+    overflow: hidden;
+}
+
+.basket {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    width: 80px;
+    height: 30px;
+    background-color: orange;
+    transform: translateX(-50%); 
+}
+
+.falling-object{
+position: absolute;
+top: 0;
+left: 50%;
+background-color: red;
+width:30px;
+height:30px;
+border-radius: 50%;
+}
