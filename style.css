@@ -31,8 +31,31 @@ body, html{
 position: absolute;
 top: 0;
 left: 50%;
-background-color: red;
+background-color: blue;
 width:30px;
 height:30px;
 border-radius: 50%;
+}
+
+.controls {
+text-align: center;
+margin-top: 20px;
+}
+
+#scoreDisplay {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+#gameOverMessage {
+   font-size: 24px;
+   color: red;
+   text-align: center;
+   margin-top: 220px;
+}
+
+button {
+padding: 10px 15px;
+font-size: 16px;
+margin: 0 5px;
 }

@@ -12,7 +12,15 @@
   <body>
     <div class="game-area">
       <div class="basket"></div>
-      <div class="falling-object"></div>
+      <div class="falling-object" style="display: none;"></div>
+      <div class="controls">
+        <button id="startButton" style="display: none">Start</button>
+        <button id="stopButton" style="display: none">Stop</button>
+        <span id="scoreDisplay">Score: 0</span>
+      </div>
+      <div id="gameOverMessage" style="display: none;">
+       Game Over! <button id="restartButton">Restart</button>
+      </div>
     </div>
 
     <script src="script.js" async defer></script>
